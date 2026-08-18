@@ -1,43 +1,72 @@
-*After exploring the Nether for a bit, you realize that there was something missing about it.*<br>
-*You're not too sure what that something is yet, so you decide to construct a research table with the resources you've collected along your journey to lay down your observations.*<br>
-*To your surprise, a mysterious voice pierces the air.*
+<div align="center">
 
-# Nexcavate
+  <img src="https://raw.githubusercontent.com/DrakesCraft-Labs/Nexcavate/main/banner.svg" alt="Nexcavate Banner" width="920" />
 
-A Slimefun Addon about rebuilding the ancient civilization.<br>
-Begin the reconstruction by researching and analyzing its traces.<br>
-My entry for the 2022 Addon Jam.
+# ⚡ Nexcavate
 
-*For the Addon Jam, some adjustments have been made to the items for a quicker judging process.*
+**TALADROS INDUSTRIALES · EXCAVACIÓN MINERA EN ÁREA**
 
-For a tutorial/walkthrough, see [TUTORIAL.md](https://github.com/qwertyuioplkjhgfd/Nexcavate/blob/main/TUTORIAL.md)
+<p>
+  <a href="https://github.com/DrakesCraft-Labs/Nexcavate"><img src="https://img.shields.io/badge/GitHub-Nexcavate-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <img src="https://img.shields.io/badge/Slimefun4-Drake_Edition-22C55E?style=for-the-badge&logo=curseforge&logoColor=white" alt="Slimefun4"/>
+  <img src="https://img.shields.io/badge/Paper-1.21.11-38BDF8?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper 1.21.11"/>
+  <img src="https://img.shields.io/badge/Java-21-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21"/>
+</p>
 
-## Commands
+</div>
 
-`/nexcavate validate`
+> ### 🏰 ¡Únete a la Comunidad Oficial de DrakesCraft!
+> 
+> * 🎮 **IP del Servidor**: `play.drakescraft.net` *(Java 1.21.11 & Bedrock)*
+> * 💬 **Discord Oficial**: [discord.gg/drakescraft](https://discord.gg/rR7FbfCt9Y)
+> * 🌐 **Web & Guía**: [drakescraft.net](https://drakescraft.net) — 🛒 **Tienda**: [tienda.drakescraft.net](https://tienda.drakescraft.net)
+> 
+> *¡Juega con este addon y más de 80 expansiones optimizadas en vivo en nuestra network de supervivencia técnica!*
 
-This command is useful if you built a structure but it does not work.<br>
-Run the command while looking at the "centerpiece" of the structure, facing the direction the recipe is displayed (where up in the GUI is forwards for you)<br>
-The "centerblock" of a structure is the block you interact with (such as the cartography table for Research Table), or the very bottom back left block of an assembly (you may have to remove a gray stained glass to point towards this block for some assemblies)<br>
-Because of this, if you cannot directly look at the centerpiece of an assembly in the correct orientation, you can optionally specify the orientation you want to validate the structure.<br>
-The orientation argument is an int as follows:
-0. facing -z
-1. facing +x
-2. facing +z
-3. facing -x
+---
 
-Once you run the command, it will show you the first block in the structure that is incorrect.
+---
 
-![](https://raw.githubusercontent.com/qwertyuioplkjhgfd/Nexcavate/main/img/command_1.png)
+## 📖 Descripción General
 
-*Running `/nex validate NE_RESEARCH_TABLE` at this position would yield "Structure is valid!", since I am facing forward relative to the recipe and am looking at the centerpiece (the cartography table)*
+**Nexcavate** es un componente esencial del ecosistema **DrakesCraft Labs** para servidores Minecraft **Paper / Purpur 1.21.11**.
 
+Taladros y picos de perforación en área, minería pesada y procesamiento automático de escombros subterráneos.
 
-![](https://raw.githubusercontent.com/qwertyuioplkjhgfd/Nexcavate/main/img/command_2.png)
+Todo el contenido y sus mecánicas se integran y desbloquean desde la **Guía de Slimefun (`/sf guide`)** sin necesidad de comandos especiales.
 
-*Trying to run `/nex validate NE_RESEARCH_TABLE` would yield false results, since my orientation is turned it will try to validate it as if the research table is pointing that way.*
-*Instead, the command to run should be `/ne validate NE_RESEARCH_TABLE 0` (or the correct orientation of the structure based on the table)*
+---
 
-`/nexcavate research`
+## ⚙️ Características y Sistemas Principales
 
-This command will grant all researches to the sender.
+* 🚀 **Rendimiento Optimizado**: Construido para Java 21 sobre Paper 1.21.11 con recolección limpia de entidades y sin telemetría externa.
+* 🛡️ **Seguridad e Integridad**: Transacciones seguras en memoria y compatibilidad completa con almacenamiento `BlockStorage`.
+* 🎮 **Integración Total**: Compatible con Slimefun4-Drake, redes de logística, sistemas de energía y economía global.
+
+---
+
+## 📋 Compatibilidad Técnica
+
+| Parámetro | Requisito |
+|---|---|
+| **Servidor** | Paper / Purpur / Folia **1.21.11** |
+| **Java** | **Java 21** LTS |
+| **Core** | [Slimefun4-Drake](https://github.com/DrakesCraft-Labs/Slimefun4-Drake) |
+| **Lado** | 100% Servidor (Server-side) |
+
+---
+
+## 📥 Instalación
+
+1. Descarga la versión compilada `.jar` desde las releases del repositorio o Modrinth.
+2. Colócala en la carpeta `plugins/` de tu servidor Minecraft junto a `Slimefun4-Drake.jar`.
+3. Inicia o reinicia el servidor.
+
+---
+
+<div align="center">
+
+**Desarrollado y Mantenido por [DrakesCraft Labs](https://github.com/DrakesCraft-Labs)**  
+Licencia **GPL-3.0-only** / **MIT**.
+
+</div>
