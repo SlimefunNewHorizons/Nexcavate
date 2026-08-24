@@ -123,8 +123,30 @@ public class PartExtractor extends NEAssembly implements MachineProcessHolder<Cr
                 }
             }
         }
-        inv.pushItem(new CustomItemStack(itemStack, itemStack.getAmount() - count));
+
+        // A zero-sized stale ItemStack can still compare as similar. Do not create
+        // a zero-sized refund: Bukkit rejects it and Slimefun disables the machine.
+        int refundAmount = getRefundAmount(itemStack.getAmount(), count);
+        if (refundAmount > 0) {
+            inv.pushItem(new CustomItemStack(itemStack, refundAmount));
+        }
         return false;
+    }
+
+    /**
+     * Calculates how many partially consumed items must be returned after an
+     * incomplete machine input. A failed zero-item consumption has no refund.
+     *
+     * @param requested the amount required by the recipe
+     * @param remaining the amount still missing after scanning inputs
+     * @return the positive amount to refund, or zero when nothing was consumed
+     */
+    static int getRefundAmount(int requested, int remaining) {
+        if (requested <= 0 || remaining >= requested) {
+            return 0;
+        }
+
+        return Math.max(0, requested - Math.max(0, remaining));
     }
 
     private void updateProgress(BlockMenu inv, Block b, int value) {
