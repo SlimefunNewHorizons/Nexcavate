@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DrakesCraft-Labs/Nexcavate/main/banner.svg" width="100%" alt="NEXCAVATE Animated Banner" />
+  <img src="https://raw.githubusercontent.com/SlimefunNewHorizons/Nexcavate/main/banner.svg" width="100%" alt="NEXCAVATE Animated Banner" />
 </p>
 
 # Nexcavate
@@ -65,7 +65,7 @@ de Slimefun: no hace falta ningún comando especial para empezar.
 |---|---|
 | Servidor | Paper / Purpur **1.21.11** |
 | Java | **21** |
-| Requiere | [Slimefun4-Drake](https://github.com/DrakesCraft-Labs/Slimefun4-Drake) |
+| Requiere | [Slimefun4-Drake](https://github.com/SlimefunNewHorizons/Slimefun4-Drake) |
 | Lado | Solo servidor — quien juega no instala nada |
 | Versión | ${project.version} |
 
@@ -81,7 +81,7 @@ de Slimefun: no hace falta ningún comando especial para empezar.
 ## Créditos
 - char321
 
-Port y mantenimiento por **DrakesCraft Labs**. La autoría original es de quien figura arriba; el detalle está en [docs/UPSTREAM_ATTRIBUTION.md](https://raw.githubusercontent.com/DrakesCraft-Labs/Nexcavate/main/docs/UPSTREAM_ATTRIBUTION.md).
+Port y mantenimiento por **DrakesCraft Labs**. La autoría original es de quien figura arriba; el detalle está en [docs/UPSTREAM_ATTRIBUTION.md](https://raw.githubusercontent.com/SlimefunNewHorizons/Nexcavate/main/docs/UPSTREAM_ATTRIBUTION.md).
 
 Licencia **MIT**.
 
@@ -89,7 +89,7 @@ Licencia **MIT**.
 
 ## 📄 License & Upstream Attribution
 
-This project is a sovereign fork maintained by [**JackStar6677-1**](https://github.com/JackStar6677-1) under [**DrakesCraft Labs**](https://github.com/DrakesCraft-Labs).
+This project is a sovereign fork maintained by [**JackStar6677-1**](https://github.com/JackStar6677-1) under [**DrakesCraft Labs**](https://github.com/SlimefunNewHorizons).
 
 - **Original Project:** Created by the upstream authors and the open-source community.
 - **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21, high concurrency, asynchronous safety, and exploit/duplication prevention.
