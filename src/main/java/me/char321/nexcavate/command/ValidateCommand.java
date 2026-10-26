@@ -1,7 +1,7 @@
 package me.char321.nexcavate.command;
 
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
-import com.github.drakescraft_labs.slimefun4.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import me.char321.nexcavate.slimefun.NEAssembly;
 import me.char321.nexcavate.slimefun.NEStructure;
 import me.char321.nexcavate.structure.Structure;

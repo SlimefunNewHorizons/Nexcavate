@@ -13,7 +13,7 @@
 
     <description>A Slimefun Addon about rebuilding the ancient civilization.</description>
     <properties>
-        <java.version>16</java.version>
+        <java.version>25</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -96,7 +96,7 @@
         <dependency>
             <groupId>com.github.drakescraft_labs</groupId>
             <artifactId>slimefun-core</artifactId>
-            <version>11.0-Drake-1.21.11-SNAPSHOT</version>
+            <version>11.0-Universal-26.x-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 
@@ -107,8 +107,8 @@
         </dependency>
         <dependency>
             <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.21.1-R0.1-SNAPSHOT</version>
+            <artifactId>paper-api</artifactId>
+            <version>26.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

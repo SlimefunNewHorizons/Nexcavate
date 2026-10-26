@@ -1,7 +1,7 @@
 package me.char321.nexcavate.slimefun;
 
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import me.char321.nexcavate.Nexcavate;
 import me.char321.nexcavate.items.Items;
 import org.bukkit.inventory.ItemStack;

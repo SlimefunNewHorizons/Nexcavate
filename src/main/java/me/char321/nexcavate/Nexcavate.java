@@ -1,6 +1,6 @@
 package me.char321.nexcavate;
 
-import com.github.drakescraft_labs.slimefun4.api.SlimefunAddon;
+import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import me.char321.nexcavate.command.NexcavateCommand;
 import me.char321.nexcavate.gui.NEGUI;
 import me.char321.nexcavate.items.Items;
