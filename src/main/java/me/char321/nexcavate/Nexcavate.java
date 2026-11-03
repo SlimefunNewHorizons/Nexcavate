@@ -72,7 +72,7 @@ public final class Nexcavate extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public String getBugTrackerURL() {
-        return "https://github.com/DrakesCraft-Labs/Nexcavate/issues";
+        return "https://github.com/SlimefunNewHorizons/Nexcavate/issues";
     }
 
     public NexcavateRegistry getRegistry() {
